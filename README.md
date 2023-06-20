@@ -21,7 +21,7 @@ This application is optimized for simplicity. As such, it does not rely on any t
 ## Screenshots
 
 <p>
-    <img src="Assets/screenshot-1.png" max-width="30%" height = "auto" >
+    <img src="Assets/screenshot-1.png" style="max-width: 30%; height: auto;">
     <img src="Assets/screenshot-2.png" >
     <img src="Assets/screenshot-1.png" >
     <img src="Assets/screenshot-2.png" >
