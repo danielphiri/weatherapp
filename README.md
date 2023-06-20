@@ -23,6 +23,25 @@ This application prioritizes simplicity and, therefore, does not rely on any thi
 
 ## Screenshots
 
+<div style="display: flex; flex-wrap: wrap; justify-content: flex-start; align-items: flex-start;">
+  <div style="width: 100%;">
+    <img src="Assets/screenshot-1.png" alt="Screenshot 1" style="width: 100%; height: auto;">
+  </div>
+  <div style="width: 100%;">
+    <img src="Assets/screenshot-2.png" alt="Screenshot 2" style="width: 100%; height: auto;">
+  </div>
+  <div style="width: 100%;">
+    <img src="Assets/screenshot-3.png" alt="Screenshot 3" style="width: 100%; height: auto;">
+  </div>
+  <div style="width: 50%;">
+    <img src="Assets/screenshot-4.png" alt="Screenshot 4" style="width: 100%; height: auto;">
+  </div>
+  <div style="width: 50%;">
+    <img src="Assets/screenshot-5.png" alt="Screenshot 5" style="width: 100%; height: auto;">
+  </div>
+</div>
+
+
 <p align="center">
     <img src="Assets/screenshot-1.png" alt="Location Prompt" width="25%">
     <img src="Assets/screenshot-2.png" alt="Single City View" width="25%">
