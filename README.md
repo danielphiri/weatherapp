@@ -1,33 +1,35 @@
 # iOS Weather App
 
-This is my take on Apple's [Weather App](https://apps.apple.com/us/app/weather/id1069513131). Developed to demonstrate part of my approach to implementing a new iOS application with backend components and privacy needs. This particular implementation is in `SwiftUI`, but similar results can be achieved using `UIKit`.
+The iOS Weather App is a demonstration project showcasing my implementation approach for developing iOS applications with backend components and privacy considerations. This project is inspired by Apple's [Weather App](https://apps.apple.com/us/app/weather/id1069513131) and is implemented using `SwiftUI`, although similar results can be achieved using `UIKit`.
 
 ## Features
-### Enable Location
-This application relies on location permissions to function, as such, it prompts a user for the location on first launch.
+
+### Location Permissions
+The application requires location permissions to function properly. On the initial launch, the user is prompted to grant permission for accessing their location.
 
 ### Current Location Weather
-The application shows a user's weather conditions for the location they are currently in. This location is broken down into an hour-by-hour forecast starting from the current time until the end of the day, leveraging the weatherapi.com API.
+The app provides real-time weather conditions for the user's current location. It displays an hour-by-hour forecast, starting from the current time and extending until the end of the day. This functionality is powered by the weatherapi.com API.
 
 ### Location History
-Like Apple's Weather App, this applications keeps track of the user's location history and shows them current weather positions from previous locations they have been in the past. These locations are shown by city.
+Similar to Apple's Weather App, this application keeps track of the user's location history. It allows users to view current weather conditions for previously visited locations, organized by city.
 
 ## Design Pattern
-For the design pattern, I went with the `MVVM` design pattern, which I found to be the best approach. One could argue that this might be a bit of an over-kill given that this is a pretty small application. However, I found that this pattern saved me a significant amount of time and works incredibly great with SwiftUI.
 
-## Libraries
-This application is optimized for simplicity. As such, it does not rely on any third-party libraries or frameworks. All the work has been implemented natively in Swift/SwiftUI.
+The iOS Weather App follows the Model-View-ViewModel (MVVM) design pattern, which I consider the most suitable approach. While some might argue that this pattern might be slightly excessive for a small application, I found it to be highly beneficial, significantly reducing development time, and seamlessly integrating with SwiftUI.
+
+## Dependencies
+
+This application prioritizes simplicity and, therefore, does not rely on any third-party libraries or frameworks. All functionality has been implemented natively in Swift/SwiftUI.
 
 ## Screenshots
 
-<p>
-    <img src="Assets/screenshot-1.png" style="max-width: 15%; height: auto;">
-    <img src="Assets/screenshot-2.png" style="max-width: 15%; height: auto;">
-    <img src="Assets/screenshot-3.png" style="max-width: 15%; height: auto;">
-    <img src="Assets/screenshot-4.png" style="max-width: 15%; height: auto;">
-    <img src="Assets/screenshot-5.png" style="max-width: 15%; height: auto;">
+<p align="center">
+    <img src="Assets/screenshot-1.png" alt="Screenshot 1" width="15%">
+    <img src="Assets/screenshot-2.png" alt="Screenshot 2" width="15%">
+    <img src="Assets/screenshot-3.png" alt="Screenshot 3" width="15%">
+    <img src="Assets/screenshot-4.png" alt="Screenshot 4" width="15%">
+    <img src="Assets/screenshot-5.png" alt="Screenshot 5" width="15%">
 </p>
 
-Discretion: This is for demo purposes only, application is not production ready and is not meant for production use.
-
+**Note:** This application is intended for demonstration purposes only. It is not production-ready and should not be used in a live production environment.
 
