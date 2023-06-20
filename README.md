@@ -22,22 +22,11 @@ This application is optimized for simplicity. As such, it does not rely on any t
 
 <p>
     <img src="Assets/screenshot-1.png" style="max-width: 15%; height: auto;">
-    <img src="Assets/screenshot-1.png" style="max-width: 15%; height: auto;">
-    <img src="Assets/screenshot-1.png" style="max-width: 15%; height: auto;">
-    <img src="Assets/screenshot-1.png" style="max-width: 15%; height: auto;">
-    <img src="Assets/screenshot-1.png" style="max-width: 15%; height: auto;">
+    <img src="Assets/screenshot-2.png" style="max-width: 15%; height: auto;">
+    <img src="Assets/screenshot-3.png" style="max-width: 15%; height: auto;">
+    <img src="Assets/screenshot-4.png" style="max-width: 15%; height: auto;">
+    <img src="Assets/screenshot-5.png" style="max-width: 15%; height: auto;">
 </p>
-
-
-![Location Prompt](Assets/screenshot-1.png)
-
-![Single City View](Assets/screenshot-2.png)
-
-![Double City View](Assets/screenshot-3.png)
-
-![Multiple City View](Assets/screenshot-4.png)
-
-![Location Services Disabled](Assets/screenshot-5.png)
 
 Discretion: This is for demo purposes only, application is not production ready and is not meant for production use.
 
